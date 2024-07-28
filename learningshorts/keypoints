@@ -1,9 +1,20 @@
 node files created using .js extention
 
+-->Main Point 
+    Run node File in cmd Go to the folder use node filename.js
+
 we have almost same functionality for loops and array and data in node as js 
 
 -->include files and modules
     we have to use require for that and pass file path or module name like if we have file name app than pass ./app or we want to add fs module or http module than pass fs or http
 
-
+--> create server using http module
+    http.createServer and req response
+    run on port using listen
+    
 -->package.json file and create and manage
+    package.json we don't have to create but we have to run command "npm init" command and it will generate package.json file 
+
+-->Install packages using npm 
+    Example::npm i colors
+             npm i simple-node-logger
