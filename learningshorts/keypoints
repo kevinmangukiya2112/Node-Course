@@ -1,0 +1,9 @@
+node files created using .js extention
+
+we have almost same functionality for loops and array and data in node as js 
+
+-->include files and modules
+    we have to use require for that and pass file path or module name like if we have file name app than pass ./app or we want to add fs module or http module than pass fs or http
+
+
+-->package.json file and create and manage
