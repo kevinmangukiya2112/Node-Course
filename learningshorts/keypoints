@@ -11,9 +11,9 @@ we have almost same functionality for loops and array and data in node as js
 --> create server using http module
     http.createServer and req response
     run on port using listen
-    
+
 -->package.json file and create and manage
-    package.json we don't have to create but we have to run command "npm init" command and it will generate package.json file 
+    package.json we don't have to create but we have to run command "npm init" command and it will generate package.json file
 
 -->Install packages using npm 
     Example::npm i colors
