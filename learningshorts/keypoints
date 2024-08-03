@@ -25,3 +25,12 @@ we have almost same functionality for loops and array and data in node as js
 --> Node js is async language it is not wait for anycommand to run and than nex command will run. instead of these it will run next command and do not wait for previous like if 2nd command taking to much time than it will run 3rd command and will show result of second command after finish it running.
 
 -->Process.argv taking input from cmd and show and use it.
+
+-->we can get dirname using path module:   
+    like these path.join(__dirname),here also we can pass second arg with foldername in it's hirarchy
+    like these path.join(__dirname,'folder1/folder2').
+
+--> we have fs module to create read delete files:
+    we can createfile using fs.writeFileSync(arg1filename,arg2filecontent).
+    we can delete file usingfs.UnlinkSync(arg1filename).
+    we can readdir and get all the filename using fs.readdir(ar1dirpath,ar2function(arg1err,ar2filesnamearr)).
