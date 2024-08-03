@@ -23,3 +23,5 @@ we have almost same functionality for loops and array and data in node as js
     We have to run our project every time when we made changes in it to avoiding that we are using nodemon nodemon will run our files autometically.
 
 --> Node js is async language it is not wait for anycommand to run and than nex command will run. instead of these it will run next command and do not wait for previous like if 2nd command taking to much time than it will run 3rd command and will show result of second command after finish it running.
+
+-->Process.argv taking input from cmd and show and use it.
