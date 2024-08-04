@@ -22,7 +22,8 @@ we have almost same functionality for loops and array and data in node as js
 -->Nodemon package
     We have to run our project every time when we made changes in it to avoiding that we are using nodemon nodemon will run our files autometically.
 
---> Node js is async language it is not wait for anycommand to run and than nex command will run. instead of these it will run next command and do not wait for previous like if 2nd command taking to much time than it will run 3rd command and will show result of second command after finish it running.
+--> Node js is async language it is not wait for anycommand to run and than nex command will run. instead of these it will run next command and do not wait     
+    for previous like if 2nd command taking to much time than it will run 3rd command and will show result of second command after finish it running.
 
 -->Process.argv taking input from cmd and show and use it.
 
@@ -34,3 +35,9 @@ we have almost same functionality for loops and array and data in node as js
     we can createfile using fs.writeFileSync(arg1filename,arg2filecontent).
     we can delete file usingfs.UnlinkSync(arg1filename).
     we can readdir and get all the filename using fs.readdir(ar1dirpath,ar2function(arg1err,ar2filesnamearr)).
+
+--> We can create file using fs.writeFileSync(arg1filepath,arg2content).
+    same we can delete file using fs.unlink(arg1filepath).
+    same we can updatefile content using fs.appendFile(arg1filepath,arg2content).
+    same we can readfile using fs.readFile(arg1filepath,arg2'utf8',arg3(err,content)).
+    same we can rename file using fs.ranme(arg1oldfilepath,arg2newfilepath).
