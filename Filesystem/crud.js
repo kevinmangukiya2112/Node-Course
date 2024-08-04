@@ -19,7 +19,7 @@ function createFile(filename, content){
                     if(item != filename){
                         fs.writeFileSync(filepath, content);
                     } else if(item == filename){
-                     fs.readFile(filepath,'utf8',(err,filecontent)=>{
+                        fs.readFile(filepath,'utf8',(err,filecontent)=>{
                             if(!err && content != filecontent){
                                 fs.appendFile(filepath,content,(err)=>{
                                     if(err){
