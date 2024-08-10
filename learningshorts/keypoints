@@ -22,7 +22,7 @@ we have almost same functionality for loops and array and data in node as js
 -->Nodemon package
     We have to run our project every time when we made changes in it to avoiding that we are using nodemon nodemon will run our files autometically.
 
---> Node js is async language it is not wait for anycommand to run and than nex command will run. instead of these it will run next command and do not wait     
+--> Node js is async language it is not wait for anycommand to run and than next command will run. instead of these it will run next command and do not wait     
     for previous like if 2nd command taking to much time than it will run 3rd command and will show result of second command after finish it running.
 
 -->Process.argv taking input from cmd and show and use it.
@@ -41,3 +41,16 @@ we have almost same functionality for loops and array and data in node as js
     same we can updatefile content using fs.appendFile(arg1filepath,arg2content).
     same we can readfile using fs.readFile(arg1filepath,arg2'utf8',arg3(err,content)).
     same we can rename file using fs.ranme(arg1oldfilepath,arg2newfilepath).
+
+--> we can export data from one file to another file or through api using module.export = data(here data means whatever we want to export from here).
+
+--> node is a asyncronous programming langauge and that's why it's fast as compare to other langauges.(asynchronous means node will not run task like one done than other and than other node will run first task and parralally second and third means it will not wait for first one to complete and than run second one.)
+
+--> Event Loop in node 
+    in node event loop there is three things first of all there is call stack than node api than callback queue.
+    "here we have to mention that in node js first of all call stack executes here all functions will excutes but if there is a function with external api like setTimeout (here setTime out is a c++ api) will go into the node api section to run and that's why it will run after call stack"
+
+    1).here in call stack it's like registry of all the function or things in our code like log const function etc.
+    "here whole node code is in main function and also all the functions run in main and each and every functios will run in it and every functions runs and than out from call stack.
+    2).node api is like a library of all the functions of node like http,fs.
+    3)CallbackQueue is a waiting queue whatever goes into node api section for external api it will comesback to call stack for execution but for that they need empty call stack and that's why these will go in callback queue and whenever finds empty call stack it will executes all these queue("here we have to mention that main function also goes out of it and than queue functions will go into call stack").
