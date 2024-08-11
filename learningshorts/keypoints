@@ -56,3 +56,12 @@ we have almost same functionality for loops and array and data in node as js
     3)CallbackQueue is a waiting queue whatever goes into node api section for external api it will comesback to call stack for execution but for that they need empty call stack and that's why these will go in callback queue and whenever finds empty call stack it will executes all these queue("here we have to mention that main function also goes out of it and than queue functions will go into call stack").
 
 --> For handling async data we can use promises of node by using promises we can handle async behaviour of node.
+
+--> we can install express using npm install express.
+
+--> we can use express same as other modules like require('express).
+    and than we just have to use it's methods like 
+    i have declair express as expr so i can create a simple app like these.
+        const app = expr();
+        app.get(arg1rout,arg1func(req,resp)).
+    also we have to run it same as http using listen and port on which we want to run.(app.listen(portnum.)).
