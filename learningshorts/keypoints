@@ -65,3 +65,5 @@ we have almost same functionality for loops and array and data in node as js
         const app = expr();
         app.get(arg1rout,arg1func(req,resp)).
     also we have to run it same as http using listen and port on which we want to run.(app.listen(portnum.)).
+
+    here we can get data using request like these req.query.parameter(name,age,number etc). also it can be in body or query not necessory to have in query.
