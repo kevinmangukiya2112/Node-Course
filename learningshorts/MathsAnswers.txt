@@ -1,0 +1,16 @@
+1) => 4 hrs (60+70+80+90).
+2) => 3 (5 in basket but you take out only 3 whatever depends on case are you holding basket or not).
+3) => 5166 dollars.
+4) => 82.5 from 12 and is we consider 3 as base than it should be 7.5.
+5) => hint p = 2(l+w).
+6) => Those who are in picture is his childrens.
+7) => 50 products.
+8) => hint count percentage of percentage like 18 of 60 and 50 of 40.
+9) => hint imagine path in rectengular.
+10) => 8/10.
+11) => area = l * w
+12) => total = (x-1) + x + (x+1)
+13) => east.
+14) => hint = (3*flour/2*sugar) = (12*flour/z*sugar)
+15) => hint = Upstream speed = 𝑣𝑏 −𝑣𝑐,Downstream speed = 𝑣𝑏 + 𝑣𝑐 (here mention that vb is speed in still water while vc is speed of current).
+
