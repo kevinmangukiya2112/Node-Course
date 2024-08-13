@@ -69,3 +69,7 @@ we have almost same functionality for loops and array and data in node as js
     here we can get data using request like these req.query.parameter(name,age,number etc). also it can be in body or query not necessory to have in query.
 
 --> we can simply use html and json data same as other framework or languages.(for example see Express/htmljson.js);
+
+--> here in node we have one function use we just have to use it as same as other get send functions like app.use and pass argument express.static(folderpath), now we have to run it on any port using listen and we can access any file from these folder just by it's name like we have home.html than we can access it like these (localhost:portnum/home.html).
+
+--> Here one more main point that we not need to declair home or root page in node in out main directory we just have to create index file and node will consider it as root page.
