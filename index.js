@@ -10,11 +10,10 @@
 
 const path = require('path');
 const expr = require('express');
-const express = require('express');
 
 const app = expr();
 const publicpath = path.join(__dirname,'Express/Public');
-console.log(publicpath);
+// console.log(publicpath);
 
 app.use(express.static(publicpath));
 app.listen(1003);

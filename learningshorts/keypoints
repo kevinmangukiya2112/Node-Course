@@ -73,3 +73,7 @@ we have almost same functionality for loops and array and data in node as js
 --> here in node we have one function use we just have to use it as same as other get send functions like app.use and pass argument express.static(folderpath), now we have to run it on any port using listen and we can access any file from these folder just by it's name like we have home.html than we can access it like these (localhost:portnum/home.html).
 
 --> Here one more main point that we not need to declair home or root page in node in out main directory we just have to create index file and node will consider it as root page.
+
+--> here if we want to create url without extentions than we have to use app.get method not static method.
+    here also we can give any name to url like my file name is kevin but i want to show aboutme in url than we just have to write aboutme in first argument of get.
+    we can show 404 or error page using * in place of name like we are passing first argument of get method as routname here we just have to pass * as routname than if use enters any wrong url it will show our error page.
