@@ -22,7 +22,7 @@ we have almost same functionality for loops and array and data in node as js
 -->Nodemon package
     We have to run our project every time when we made changes in it to avoiding that we are using nodemon nodemon will run our files autometically.
 
---> Node js is async language it is not wait for anycommand to run and than next command will run. instead of these it will run next command and do not wait     
+--> Node js is async language it is not wait for anycommand to run and than next command will run. instead of these it will run next command and do not wait
     for previous like if 2nd command taking to much time than it will run 3rd command and will show result of second command after finish it running.
 
 -->Process.argv taking input from cmd and show and use it.
@@ -77,3 +77,13 @@ we have almost same functionality for loops and array and data in node as js
 --> here if we want to create url without extentions than we have to use app.get method not static method.
     here also we can give any name to url like my file name is kevin but i want to show aboutme in url than we just have to write aboutme in first argument of get.
     we can show 404 or error page using * in place of name like we are passing first argument of get method as routname here we just have to pass * as routname than if use enters any wrong url it will show our error page.
+
+--> Ejs how to create dynamic pages using node.
+    using node js we can create dynamic pages for that we have to use ejs in node but for that we have to use express and create same app and get all same as express.
+    "Here we just have to take care of one point and it's before app.get we have to set ejs for using ejs and it's smiple app.set(arg1 as view engine,arg2 as ejs declaire);
+    and than same app.get('rout',(req,resp)=>{});
+    Here in ejs we have to store and create all the ejs files in views folder now if our js file and views file have same parent folder than there is no proble we can simply use app.set but if not same root folder than we have to set another thing and is to app.set('views',path to views folder), 
+    Here also we have to set view engine and than than these views path.
+
+--> Here main thing to notice is that we can get root folder using path.resolve(__dirname,'..');
+    and also main thing is that than we can join it in path.join.
