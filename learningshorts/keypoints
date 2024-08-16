@@ -87,3 +87,17 @@ we have almost same functionality for loops and array and data in node as js
 
 --> Here main thing to notice is that we can get root folder using path.resolve(__dirname,'..');
     and also main thing is that than we can join it in path.join.
+
+--> we can send data in resp.render like these resp.render(`file`,{data});
+    now we have to retrive it in html page just using it's proper syntax like i want to show data in <h1> tag than i can show it like these 
+    <h1><%= data.keyof object %></h1>,
+    if we have many data in one key like i have marks in one key and there is marks as per subject than we have to use foreach loop and it's like these we can use .. 
+    <ul><% user.skills.forEach((item)=>{ %>
+            <li><%= item %></li>
+        <% })%>
+    </ul>
+    it's not necessory to use it in list i just provided one reference.
+
+--> as we know we have same header file for whole project that's why we need to use same header file for whole project and how can we include it in all pages so we just have to create one ejs file "main thing in every ejs file you can only include ejs file not anyother file", so after creating one common ejs file we have to include it in every file where we want and also we have to create it in views folder and in it we can create any hirarchy of folder but we have to provide right path at the time of include like i have created header in common colfer than we have to provide path like these,
+"<%- include('common/header')%>",
+here we will get on que. we are using require every where in node why we using include here so here we are using ejs engine that's why we need to use include and also we have one more question that in previous file where we are showing js data at that time we are using =  after % here we have used - why so it's identifier for ejs to what ejs have to load like here we have html content in header.ejs that's why we used - cause - is identifier for ejs to load html content.
